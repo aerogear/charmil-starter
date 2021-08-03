@@ -1,7 +1,7 @@
 package bash
 
 import (
-	"github.com/aerogear/charmil/core/factory"
+	"github.com/{{ .Owner }}/{{ .Repo }}/internal/factory"
 	"github.com/spf13/cobra"
 )
 

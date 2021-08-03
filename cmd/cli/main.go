@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/aerogear/charmil/core/config"
-	"github.com/aerogear/charmil/core/factory"
+	"github.com/{{ .Owner }}/{{ .Repo }}/internal/factory"
 	"github.com/aerogear/charmil/core/localize"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
