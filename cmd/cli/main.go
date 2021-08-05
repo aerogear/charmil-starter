@@ -83,6 +83,8 @@ func Root() *cobra.Command {
 func main() {
 	cmd := Root()
 
+	update.CheckForUpdate(context.Background(), cmdFactory.Logger, cmdFactory.Localizer)
+
 	if err := doc.GenMarkdownTree(cmd, "./docs/commands"); err != nil {
 		cmdFactory.Logger.Errorln(cmdFactory.IOStreams.ErrOut, err)
 		os.Exit(1)
