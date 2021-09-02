@@ -1,8 +1,8 @@
 package root
 
 import (
-	"github.com/{{ .Owner }}/{{ .Repo }}/internal/factory"
-	"github.com/{{ .Owner }}/{{ .Repo }}/pkg/cmd/completion"
+	"github.com/aerogear/charmil-starter/pkg/cmd/completion"
+	"github.com/aerogear/charmil-starter/pkg/factory"
 	"github.com/spf13/cobra"
 )
 
