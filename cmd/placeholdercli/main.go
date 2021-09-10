@@ -1,19 +1,21 @@
 package main
 
 import (
+	"context"
 	"embed"
 	"fmt"
 	"log"
 	"os"
 
+	"github.com/aerogear/charmil-starter/internal/update"
+	"github.com/aerogear/charmil-starter/pkg/factory"
 	"github.com/aerogear/charmil/core/config"
-	"github.com/{{ .Owner }}/{{ .Repo }}/internal/factory"
-	"github.com/aerogear/charmil/core/localize"
+	"github.com/aerogear/charmil/core/utils/localize"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 	"golang.org/x/text/language"
 
-	"github.com/{{ .Owner }}/{{ .Repo }}/pkg/cmd/root"
+	"github.com/aerogear/charmil-starter/pkg/cmd/root"
 )
 
 // Defines the configuration keys of the host CLI.

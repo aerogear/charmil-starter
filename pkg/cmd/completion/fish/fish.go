@@ -1,7 +1,7 @@
 package fish
 
 import (
-	"github.com/{{ .Owner }}/{{ .Repo }}/internal/factory"
+	"github.com/aerogear/charmil-starter/pkg/factory"
 	"github.com/spf13/cobra"
 )
 
